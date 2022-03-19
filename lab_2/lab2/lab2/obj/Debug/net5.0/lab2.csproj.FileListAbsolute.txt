@@ -1,0 +1,16 @@
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.csproj.AssemblyReference.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfoInputs.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfo.cs
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.csproj.CoreCompileInputs.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.exe
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.deps.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.dev.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\ref\lab2.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\bin\Debug\net5.0\lab2.pdb
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\ref\lab2.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.pdb
+D:\Users\Maciej.Gurgul\Desktop\lab2\lab2\lab2\obj\Debug\net5.0\lab2.genruntimeconfig.cache
