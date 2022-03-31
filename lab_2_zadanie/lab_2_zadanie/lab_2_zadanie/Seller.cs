@@ -14,6 +14,11 @@ namespace lab_2_zadanie
             base.Age = age; 
         }
 
-        public override string ToString() => $"\tSeller: {Name} ({Age} y.o.)";
+        public override string ToString() => $"Seller: {Name} ({Age} y.o.)";
+
+        public override void Print(string prefix)
+        {
+            Console.WriteLine($"\tSeller: {Name} ({Age} y.o.)");
+        }
     }
 }

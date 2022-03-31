@@ -24,15 +24,17 @@ namespace lab_2_zadanie
         {
             Console.WriteLine($"Shop: {Name}\n" + $"-- People: --");
 
-            Console.WriteLine(people[0]);
-            for (int i = 1; i < people.Length; i++)
+            for (int i = 0; i < people.Length; i++)
             {
-                people[i].Print("Buyer");
-                //var a = people[i].ToString();
-                //if(a == "Buyer")
-                //{
-                //    Console.WriteLine("asd");
-                //}
+                var a = people[i].ToString().Split(" ");
+                if (a[0] == "Seller:")
+                {
+                    people[i].Print("Seller");
+                }
+                else if (a[0] == "Buyer:")
+                {
+                    people[i].Print("Buyer");
+                }
             }
 
             Console.WriteLine("-- Products: --");
