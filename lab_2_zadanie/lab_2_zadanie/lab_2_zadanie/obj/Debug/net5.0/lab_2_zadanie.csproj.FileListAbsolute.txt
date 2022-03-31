@@ -1,0 +1,16 @@
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.exe
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.deps.json
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.runtimeconfig.json
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.runtimeconfig.dev.json
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.dll
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.pdb
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.csproj.AssemblyReference.cache
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.AssemblyInfoInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.AssemblyInfo.cs
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.csproj.CoreCompileInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.dll
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\refint\lab_2_zadanie.dll
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.pdb
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\ref\lab_2_zadanie.dll
