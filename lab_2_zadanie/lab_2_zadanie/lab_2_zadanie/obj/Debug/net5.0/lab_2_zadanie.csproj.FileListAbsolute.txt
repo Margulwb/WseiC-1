@@ -14,3 +14,19 @@ D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug
 D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.pdb
 D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.genruntimeconfig.cache
 D:\studia\!   2 semest\Cw\C#\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\ref\lab_2_zadanie.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.exe
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.deps.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.runtimeconfig.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.runtimeconfig.dev.json
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\ref\lab_2_zadanie.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\bin\Debug\net5.0\lab_2_zadanie.pdb
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.csproj.AssemblyReference.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.AssemblyInfoInputs.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.AssemblyInfo.cs
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.csproj.CoreCompileInputs.cache
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\ref\lab_2_zadanie.dll
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.pdb
+D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_2_zadanie\lab_2_zadanie\lab_2_zadanie\obj\Debug\net5.0\lab_2_zadanie.genruntimeconfig.cache
