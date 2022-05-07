@@ -1,1 +1,5 @@
 https://dirask.com/snippets/cs/c%23+delegate+example+with+lambda+expression
+https://dirask.com/snippets/cs/c%23+delegate+example+with+lambda+expression
+https://dirask.com/snippets/cs/C%23+multiple+events+example
+https://dirask.com/snippets/cs/C%23+event+example
+https://dirask.com/posts/WSEI-2021-2022-lato-labN-1-IS-Programowanie-obiektowe-lab-5-1xN0qp
