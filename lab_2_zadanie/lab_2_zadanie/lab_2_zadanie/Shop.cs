@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_2_zadanie
 {
-    internal class Shop
+    internal class Shop : IThing
     {
         private string name;
         private Person[] people;

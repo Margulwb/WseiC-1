@@ -6,8 +6,6 @@ namespace lab_2_zadanie
     {
         static void Main(string[] args)
         {
-
-
             Seller treacher = new Seller("Jan Kowalski", 50);
 
             Buyer buyer1 = new Buyer("Jaś Fasola 1", 25);
