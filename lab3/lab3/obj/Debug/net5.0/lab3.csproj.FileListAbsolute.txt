@@ -1,0 +1,16 @@
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.exe
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.deps.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.runtimeconfig.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.runtimeconfig.dev.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\bin\Debug\net5.0\lab3.pdb
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.csproj.AssemblyReference.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.AssemblyInfoInputs.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.AssemblyInfo.cs
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.csproj.CoreCompileInputs.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\refint\lab3.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.pdb
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\lab3.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab3\lab3\obj\Debug\net5.0\ref\lab3.dll

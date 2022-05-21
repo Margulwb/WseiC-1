@@ -14,3 +14,19 @@ D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_05\WpfApp1\ConsoleApp1\obj\Debug
 D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
 D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
 D:\Users\Maciej.Gurgul\Desktop\lab2\WseiC-1\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\refint\ConsoleApp1.dll
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\C#\lab_05\WpfApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll

@@ -1,0 +1,16 @@
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.exe
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.deps.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.runtimeconfig.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.runtimeconfig.dev.json
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\bin\Debug\net5.0\lab4.pdb
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.csproj.AssemblyReference.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.AssemblyInfoInputs.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.AssemblyInfo.cs
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.csproj.CoreCompileInputs.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\refint\lab4.dll
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.pdb
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\lab4.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\malażC#\CSHARP_LAB-main\lab4\lab4\obj\Debug\net5.0\ref\lab4.dll

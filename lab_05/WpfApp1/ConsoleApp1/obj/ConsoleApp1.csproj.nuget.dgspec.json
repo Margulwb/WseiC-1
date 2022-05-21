@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Maciej.Gurgul\\Desktop\\lab2\\WseiC-1\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\studia\\!   2 semest\\Cw\\C#\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Maciej.Gurgul\\Desktop\\lab2\\WseiC-1\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\studia\\!   2 semest\\Cw\\C#\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Maciej.Gurgul\\Desktop\\lab2\\WseiC-1\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\studia\\!   2 semest\\Cw\\C#\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Users\\Maciej.Gurgul\\Desktop\\lab2\\WseiC-1\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "D:\\Users\\Maciej.Gurgul\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Maciej.Gurgul\\Desktop\\lab2\\WseiC-1\\lab_05\\WpfApp1\\ConsoleApp1\\obj\\",
+        "projectPath": "D:\\studia\\!   2 semest\\Cw\\C#\\lab_05\\WpfApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
+        "outputPath": "D:\\studia\\!   2 semest\\Cw\\C#\\lab_05\\WpfApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\Maciej.Gurgul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
