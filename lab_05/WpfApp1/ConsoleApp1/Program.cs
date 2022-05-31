@@ -14,55 +14,33 @@ public class Program
             Console.WriteLine("Added event occured: value=" + e.Value);
         };
 
+        Console.WriteLine("Adding");
         list.Add(1);
         list.Add(1);
-        list.Add(1);
-        //list.Add(+1);
+
+        Console.WriteLine("Setting");
+        List<int> newList = new List<int>() { 1, 2, 3, 4 };
+        list.Set(newList);
+
+        Console.WriteLine("\nGetting");
+        list.Get();
+
+        Console.WriteLine("Removing '3'");
+        list.RemoveAt(2);
+        list.Get();
     }
 }
 
 public class ObservableList1
 {
     private List<int> list = new List<int>();
+    public int Length { get => Length; set => Length= value; }
 
     public event EventHandler<ChangedEventArgs> Added;
     public event EventHandler<ChangedEventArgs> Updated;
     public event EventHandler<ChangedEventArgs> Removed;
-
-    protected virtual void OnChanged(ChangedEventArgs e) 
+    public int this[int index]
     {
-        EventHandler<ChangedEventArgs> Adder = this.Added;
-        if (Adder != null) Adder(this, e);
-
-        EventHandler<ChangedEventArgs> Updater = this.Updated;
-        if (Updater != null) Updater(this, e);
-
-        EventHandler<ChangedEventArgs> Remover = this.Removed;
-        if (Remover != null) Remover(this, e);
-
-    }
-
-    public void Add(int value)
-    {
-        this.list.Add(value);
-
-        Get();
-
-    }
-
-    public void Get() {
-        //foreach (int l in this.list)
-        //{
-        //    Console.WriteLine(l);
-        //}
-        for(int i = 0; i < this.list.Count; i++)
-        {
-            Console.WriteLine(this.list[i]);
-        }
-    }
-    public void Set() { }
-    public void RemoveAt(int value) { }
-     public int this[int index] {
         get
         {
             int results;
@@ -79,6 +57,46 @@ public class ObservableList1
                 this.list[index] = value;
         }
     }
+
+    protected void OnAdd(ChangedEventArgs e) 
+    {
+        EventHandler<ChangedEventArgs> handler = this.Added;
+        if (handler != null) handler(this, e);
+
+    }
+    protected virtual void OnUpdate(ChangedEventArgs e)
+    {
+        EventHandler<ChangedEventArgs> handler = this.Updated;
+        if (handler != null) handler(this, e);
+
+    }
+    protected virtual void OnRemoved(ChangedEventArgs e)
+    {
+        EventHandler<ChangedEventArgs> handler = this.Removed;
+        if (handler != null) handler(this, e);
+
+    }
+    public void Add(int value)
+    {
+        this.list.Add(value);
+
+        Get();
+
+    }
+
+    public void Get() {
+        foreach (int l in this.list)
+        {
+            Console.WriteLine(l);
+        }
+        Console.WriteLine();
+    }
+    public void Set(List<int> value)
+    {
+        this.list = value;
+    }
+    public void RemoveAt(int value) => this.list.RemoveAt(value);
+     
 }
 
 public class ChangedEventArgs : EventArgs

@@ -1,0 +1,16 @@
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.exe
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.deps.json
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.runtimeconfig.json
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.runtimeconfig.dev.json
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.dll
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\bin\Debug\net5.0\lab6.pdb
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.csproj.AssemblyReference.cache
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.AssemblyInfoInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.AssemblyInfo.cs
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.csproj.CoreCompileInputs.cache
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.dll
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\refint\lab6.dll
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.pdb
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\lab6.genruntimeconfig.cache
+D:\studia\!   2 semest\Cw\C#\lab_06\lab6\lab6\obj\Debug\net5.0\ref\lab6.dll
