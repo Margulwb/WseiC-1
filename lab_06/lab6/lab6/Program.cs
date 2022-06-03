@@ -4,6 +4,7 @@ using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.Collections.Generic;
+using System.Text.Json;
 using System.Linq;
 
 namespace lab6
@@ -245,22 +246,53 @@ namespace lab6
             }
             Console.WriteLine();
 
-            //Console.WriteLine("17.");
-            //var now = DateTime.Now;
-            //var q17 = from user in Users where user.RemovedAt == null select user;
-            //foreach( var user in q17)
-            //{
-            //    Console.WriteLine(user);
-            //}
+            Console.WriteLine("17.");
+            var now = DateTime.Now;
+            var q17 = from user in Users where user.RemovedAt == null select user;
+            foreach (var user in q17)
+            {
+                Console.WriteLine(user);
+            }
 
-            //Console.WriteLine("18.");
-            //DateTime? newStudent= new (1, 10, 13);
-            //var q18 = from user in Users where user.Role == "STUDENT" && user.CreatedAt != null select user;
-            //foreach ( var user in q18)
-            //{
-            //    if (newStudent < user.CreatedAt) newStudent = user.CreatedAt;
-            //}
-            //Console.WriteLine(newStudent);
+            Console.WriteLine("18.");
+            DateTime? newStudent = new(1, 10, 13);
+            var q18 = from user in Users where user.Role == "STUDENT" && user.CreatedAt != null select user;
+            foreach (var user in q18)
+            {
+                if (newStudent < user.CreatedAt) newStudent = user.CreatedAt;
+            }
+            Console.WriteLine(newStudent);
+            Console.WriteLine();
+
+            /*JSON*/
+            List<User> json = new();
+            foreach (var user in Users)
+            {
+                json.Add(user);
+                Console.WriteLine(user);
+            }
+            //string usersSerializeJSON = JsonSerializer.Serialize(Users);
+            //Console.WriteLine($"{usersSerializeJSON}\n");
+
+            //string maciekSerializeJSON = JsonSerializer.Serialize(maciekUser);
+            //Console.WriteLine(maciekSerializeJSON);
+
+            foreach(var user in Users)
+            {
+                var end = (user.RemovedAt != null) ? "\",\"RemovedAt\":" + user.RemovedAt + "}" : "}";
+                var jsonD = "{\"Name\":\"" + user.Name + "\",\"Role\":" + user.Role + "\",\"Age\":" + user.Age +
+                   "\",\"Marks\":" + user.Marks + "\",\"CreatedAt\":" + user.CreatedAt + end;
+                   ;
+
+                User usersDeserializeJSON = JsonSerializer.Deserialize<User>(jsonD);
+                Console.WriteLine($"Name: {usersDeserializeJSON.Name}");
+                Console.WriteLine($"Role: {usersDeserializeJSON.Role}");
+                Console.WriteLine($"Age: {usersDeserializeJSON.Age}");
+                Console.WriteLine($"Marks: {usersDeserializeJSON.Marks}");
+                Console.WriteLine($"Created at: {usersDeserializeJSON.CreatedAt}");
+                Console.WriteLine($"Removed at: {usersDeserializeJSON.RemovedAt}");
+                Console.WriteLine();
+            }
         }
     }
 }

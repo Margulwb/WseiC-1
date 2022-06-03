@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace lab6
 {
@@ -15,16 +13,7 @@ namespace lab6
         public DateTime? CreatedAt { get; set ; }
         public DateTime? RemovedAt { get; set; }
 
-        public User(string name, string role,int age, int[] marks, DateTime createdAt, DateTime removeAt)
-        {
-            Name = name;
-            Role = role;
-            Age = age;
-            Marks = marks;
-            CreatedAt = createdAt;
-            RemovedAt = removeAt;
-        }
-
+        [JsonConstructor]
         public User(string name, string role, int age, int[] marks, DateTime createdAt)
         {
             Name = name;
@@ -33,6 +22,17 @@ namespace lab6
             Marks = marks;
             CreatedAt = createdAt;
             RemovedAt = null;
+        }
+
+        [JsonConstructor]
+        public User(string name, string role,int age, int[] marks, DateTime createdAt, DateTime removeAt)
+        {
+            Name = name;
+            Role = role;
+            Age = age;
+            Marks = marks;
+            CreatedAt = createdAt;
+            RemovedAt = removeAt;
         }
 
         private string GetMarks() => $"[ {string.Join(" ", Marks)} ]";
