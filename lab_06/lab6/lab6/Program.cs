@@ -264,35 +264,35 @@ namespace lab6
             Console.WriteLine(newStudent);
             Console.WriteLine();
 
-            /*JSON*/
-            List<User> json = new();
-            foreach (var user in Users)
-            {
-                json.Add(user);
-                Console.WriteLine(user);
-            }
-            //string usersSerializeJSON = JsonSerializer.Serialize(Users);
-            //Console.WriteLine($"{usersSerializeJSON}\n");
+            ///*JSON*/
+            //List<User> json = new();
+            //foreach (var user in Users)
+            //{
+            //    json.Add(user);
+            //    Console.WriteLine(user);
+            //}
+            ////string usersSerializeJSON = JsonSerializer.Serialize(Users);
+            ////Console.WriteLine($"{usersSerializeJSON}\n");
 
-            //string maciekSerializeJSON = JsonSerializer.Serialize(maciekUser);
-            //Console.WriteLine(maciekSerializeJSON);
+            ////string maciekSerializeJSON = JsonSerializer.Serialize(maciekUser);
+            ////Console.WriteLine(maciekSerializeJSON);
 
-            foreach(var user in Users)
-            {
-                var end = (user.RemovedAt != null) ? "\",\"RemovedAt\":" + user.RemovedAt + "}" : "}";
-                var jsonD = "{\"Name\":\"" + user.Name + "\",\"Role\":" + user.Role + "\",\"Age\":" + user.Age +
-                   "\",\"Marks\":" + user.Marks + "\",\"CreatedAt\":" + user.CreatedAt + end;
-                   ;
+            //foreach(var user in Users)
+            //{
+            //    var end = (user.RemovedAt != null) ? "\",\"RemovedAt\":" + user.RemovedAt + "}" : "}";
+            //    var jsonD = "{\"Name\":\"" + user.Name + "\",\"Role\":" + user.Role + "\",\"Age\":" + user.Age +
+            //       "\",\"Marks\":" + user.Marks + "\",\"CreatedAt\":" + user.CreatedAt + end;
+            //       ;
 
-                User usersDeserializeJSON = JsonSerializer.Deserialize<User>(jsonD);
-                Console.WriteLine($"Name: {usersDeserializeJSON.Name}");
-                Console.WriteLine($"Role: {usersDeserializeJSON.Role}");
-                Console.WriteLine($"Age: {usersDeserializeJSON.Age}");
-                Console.WriteLine($"Marks: {usersDeserializeJSON.Marks}");
-                Console.WriteLine($"Created at: {usersDeserializeJSON.CreatedAt}");
-                Console.WriteLine($"Removed at: {usersDeserializeJSON.RemovedAt}");
-                Console.WriteLine();
-            }
+            //    User usersDeserializeJSON = JsonSerializer.Deserialize<User>(jsonD);
+            //    Console.WriteLine($"Name: {usersDeserializeJSON.Name}");
+            //    Console.WriteLine($"Role: {usersDeserializeJSON.Role}");
+            //    Console.WriteLine($"Age: {usersDeserializeJSON.Age}");
+            //    Console.WriteLine($"Marks: {usersDeserializeJSON.Marks}");
+            //    Console.WriteLine($"Created at: {usersDeserializeJSON.CreatedAt}");
+            //    Console.WriteLine($"Removed at: {usersDeserializeJSON.RemovedAt}");
+            //    Console.WriteLine();
+            //}
         }
     }
 }
