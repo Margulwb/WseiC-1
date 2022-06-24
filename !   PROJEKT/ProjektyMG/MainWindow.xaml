@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProjektyMG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektyMG"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,-6">
+            <StackPanel>
+                <Label Content="Wybierz Akcjeaaaaa" Foreground="White" FontSize="20px" HorizontalAlignment="Center"></Label>
+                <Separator Height="16" Width="254" RenderTransformOrigin="0.507,0.03"></Separator>
+                <Button x:Name="ButtonReservation" Click="ButtonReservation_Click" Content="Sprawdz Swoje Rezerwacje" Background="#adafff" Foreground="White" FontSize="14" Width="248" Height="66" Margin="50" />
+                <Button x:Name="ButtonCheckReservation" Click="ButtonCheckReservation_Click" Content="Zarezerwuj Rower" Background="#adafff" Foreground="White" FontSize="14" Width="248" Height="66" Margin="50" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
