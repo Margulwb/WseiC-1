@@ -26,35 +26,39 @@ namespace ProjektyMG
             InitializeComponent();
         }
 
-        private void ButtonSubmit_Click(object sender, RoutedEventArgs e)
+        private  void ButtonSubmit_Click(object sender, RoutedEventArgs e)
         {
-            SqlConnection sqlCon = new SqlConnection(@"Data Source=MACIEK\SQLEXPRESS01; Initial Catalog=ProjektMG13656; Integrated Security=True;");
+            var UserName = Username.Text;
+            var PassWord = Password.Password;
 
-            try
+            string connectionString = @"Data Source=MACIEK\SQLEXPRESS;Initial Catalog=P13656_MaciejGurgul;Integrated Security=True";
+
+            using (UserDataContext db = new UserDataContext())
             {
-                if (sqlCon.State == ConnectionState.Closed) sqlCon.Open();
-                String query = "SELECT COUNT(1) from UsersTb where UserName=@Username and Password = @Password";
-                SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
-                sqlCmd.CommandType = CommandType.Text;
-                sqlCmd.Parameters.AddWithValue("@Username", Username.Text);
-                sqlCmd.Parameters.AddWithValue("@Password", Password.Password);
-                int count = Convert.ToInt32(sqlCmd.ExecuteScalar());
+                bool userFound = db.User.Any(user => user.Username == UserName && user.Password == PassWord);
+                var query = from st in db.User
+                            where st.Username == UserName
+                            select st;
+                Console.WriteLine(query);
 
-                if (count == 1)
+                if (userFound)
                 {
-                    MainWindow Dashboard = new();
-                    Dashboard.Show();
-                    this.Close();
+                    LogIn();
+                    
                 }
                 else
                 {
-                    MessageBox.Show("Nazwa użytkownika lub hasło jest nieprawidłowe");
+                    MessageBox.Show("Niepoprawny login lub hasło");
                 }
+
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+        }
+
+        private void LogIn()
+        {
+            MainWindow Dashboard = new();
+            Dashboard.Show();
+            this.Close();
         }
     }
 }
