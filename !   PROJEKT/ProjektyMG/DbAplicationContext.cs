@@ -1,9 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 public class DbAplicationContext : DbContext
 {
@@ -11,18 +8,6 @@ public class DbAplicationContext : DbContext
     public DbSet<Workers> Workers{ get; set; }
     public DbSet<Bike> Bike { get; set; }
     public DbSet<ModelBike> ModelBike { get; set; }
-
-    //public string ConnectionString { get; }
-
-    //public DbAplicationContext(string connectionString)
-    //{
-    //    this.ConnectionString = connectionString;
-    //}
-
-    //protected override void OnConfiguring(DbContextOptionsBuilder options)
-    //{
-    //    options.UseSqlServer(this.ConnectionString);
-    //}
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlite("Data Source = DataFile.db");
@@ -31,15 +16,17 @@ public class DbAplicationContext : DbContext
 
 public class Users
 {
+    [Key] //primary key
     public long ID { get; set; }
     public string Username { get; set; }
-    public string Password { get; set; }  
+    public string Password { get; set; }
 
     public List<Workers> Workers { get; } = new();
 }
 
 public class Workers
 {
+    [Key]
     public long ID { get; set; }
     public string Name { get; set; }    
     public int Seniority { get; set; }
@@ -53,6 +40,7 @@ public class Workers
 
 public class Bike
 {
+    [Key]
     public long ID { get; set; }
     public string Name { get; set; }
     public double Price { get; set; }
@@ -62,6 +50,7 @@ public class Bike
 
 public class ModelBike
 {
+    [Key]
     public long ID { get; set; }
     public string Mark { get; set; }
     public double WheelSize { get; set; }

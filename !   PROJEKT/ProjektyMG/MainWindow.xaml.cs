@@ -34,7 +34,7 @@ namespace ProjektyMG
 
         private void ButtonCheckReservation_Click(object sender, RoutedEventArgs e)
         {
-            Reservation Dashboard = new();
+            CheckReservation Dashboard = new();
             Dashboard.Show();
             this.Close();
         }

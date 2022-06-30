@@ -5,11 +5,80 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektyMG"
         mc:Ignorable="d"
-        Title="Reservation" Height="450" Width="800">
-    <Grid>
-        <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,-6">
+        Title="Reservation" Height="688" Width="800">
+    <Grid Margin="0,0,0,-103">
+        <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,103">
             <StackPanel>
-                <Button Click="BackButton_Click" Name="BackButton" Content="Powrót"  Background="#adafff" Foreground="White" FontSize="14" Width="214" Height="48" />
+                <ListView Name="ItemList" Margin="50 30 " Height="211" Foreground="White" Background="#FFBDBDBD">
+                    <ListView.ContextMenu >
+                        <ContextMenu >
+                            <MenuItem  Header="Clear" Click="MenuItem_Click"/>
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+                    <ListView.View >
+                        <GridView >
+                            <GridViewColumn Header="Id" Width="30"  DisplayMemberBinding="{Binding Id}" />
+                            <GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding Name}"/>
+                            <GridViewColumn Header="Price" Width="150" DisplayMemberBinding="{Binding Price}"/>
+                            <GridViewColumn Header="WhoPrepared" Width="150" DisplayMemberBinding="{Binding WhoPrepared}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <Grid x:Name="EditGrid">
+                    <Label Content="Name"  HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top"/>
+                    <Label Content="Price" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="3,31,0,0"/>
+                    <Label Content="WhoPrepared" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,62,0,0"/>
+                    <TextBox x:Name="NameTextBox"   Text="{Binding SelectedItem.Name, ElementName=ItemList, Mode=OneWay}"   HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,0,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="PriceTextBox"  Text="{Binding SelectedItem.Price, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="WhoPreparedTextBox"  Text="{Binding SelectedItem.WhoPrepared, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
+
+                    <ListView Name="WorkersList" Margin="315,0,21,60" Height="211" Foreground="White" Background="#FFBDBDBD">
+                        <ListView.ContextMenu >
+                            <ContextMenu >
+                                <MenuItem  Header="Clear" Click="MenuItem_Click"/>
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                        <ListView.View >
+                            <GridView >
+                                <GridViewColumn Header="Id" Width="30"  DisplayMemberBinding="{Binding Id}" />
+                                <GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding Name}"/>
+                                <GridViewColumn Header="Serioty" Width="50" DisplayMemberBinding="{Binding Serioty}"/>
+                                <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}"/>
+                                <GridViewColumn Header="Phone" Width="80" DisplayMemberBinding="{Binding Phone}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+
+                <Grid Margin="20">
+                    <Button x:Name="CreateButton" HorizontalAlignment="Left" Click="CreateButton_Click" Width="100" Margin="230,0,0,0"  >
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Create"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="ReadButton"  HorizontalAlignment="Left" Click="ReadButton_Click" Width="100" Margin="114,0,0,0"  >
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Read"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="UpdateButton" HorizontalAlignment="Left" Click="UpdateButton_Click" Width="100" Margin="343,0,0,0"   >
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Update"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="DeleteButton" HorizontalAlignment="Left"  Width="100" Click="DeleteButton_Click"  >
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Delete"/>
+                        </StackPanel>
+                    </Button>
+
+                </Grid>
+
+                <Button Click="BackButton_Click" x:Name="BackButton" Margin="100" Content="Powrót"  Background="#adafff" Foreground="White" FontSize="14" Width="214" Height="48" />
             </StackPanel>
         </Border>
     </Grid>
