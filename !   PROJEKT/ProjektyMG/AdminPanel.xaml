@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektyMG"
         mc:Ignorable="d"
-        Title="AdminPanel" Height="789" Width="800">
+        Title="AdminPanel" Height="566" Width="800">
     <Grid>
-        <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,-248">
+        <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,0">
             <StackPanel>
 
-                <Label Content="Specyfikacje rowerów" HorizontalAlignment="Center" Foreground="White" FontSize="20"></Label>
+                <Label Content="Specification Bike" HorizontalAlignment="Center" Foreground="White" FontSize="20"></Label>
 
                 <ListView Name="ModelList" Margin="50 30 " Height="211" Foreground="White" Background="#FFBDBDBD">
                     <ListView.ContextMenu >
@@ -30,10 +30,10 @@
 
                 <Grid x:Name="EditGrid">
                     <Label Content="Mark"  HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top"/>
-                    <Label Content="WheleSize" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="3,31,0,0"/>
+                    <Label Content="WheleSize" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,31,0,0"/>
                     <Label Content="NumberGear" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,62,0,0"/>
                     <TextBox x:Name="MarkTextBox"   Text="{Binding SelectedItem.Mark, ElementName=ModelList, Mode=OneWay}"   HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,0,0,0" Foreground="White" Background="#FFBDBDBD"/>
-                    <TextBox x:Name="WheleSizeTextBox"   Text="{Binding SelectedItem.WheleSize, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="WheleSizeTextBox"  PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.WheleSize, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
                     <TextBox x:Name="NumberGearTextBox" PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.NumberGear, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
                 </Grid>
 
@@ -53,6 +53,12 @@
                     <Button x:Name="DeleteButton" HorizontalAlignment="Left"  Width="100" Click="DeleteButton_Click"  >
                         <StackPanel Orientation="Horizontal">
                             <Label Content="Delete"/>
+                        </StackPanel>
+                    </Button>
+                    
+                    <Button x:Name="LogOut" HorizontalAlignment="Left" Background="#adafff" Width="228" Click="LogOut_Click" Margin="482,10,0,-52">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="LogOut"/>
                         </StackPanel>
                     </Button>
 

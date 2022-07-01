@@ -73,6 +73,12 @@
                         </StackPanel>
                     </Button>
 
+                    <Button x:Name="LogOut" HorizontalAlignment="Left" Background="#adafff" Width="228" Click="LogOut_Click" Margin="482,10,0,-52">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="LogOut"/>
+                        </StackPanel>
+                    </Button>
+
                 </Grid>
             </StackPanel>
         </Border>

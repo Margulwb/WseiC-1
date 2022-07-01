@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 public class DbAplicationContext : DbContext
@@ -20,8 +19,6 @@ public class Users
     public long ID { get; set; }
     public string Username { get; set; }
     public string Password { get; set; }
-
-    public List<Workers> Workers { get; } = new();
 }
 
 public class Workers
@@ -32,10 +29,6 @@ public class Workers
     public int Seniority { get; set; }
     public int Age { get; set; }
     public int Phone { get; set; }  
-    public int UserID { get; set; }
-    public Workers workers { get; set; }
-
-    public List<Bike> Bike { get; } = new();
 }
 
 public class Bike
@@ -45,7 +38,6 @@ public class Bike
     public string Name { get; set; }
     public double Price { get; set; }
     public long WhoPrepared { get; set; }
-    public List<ModelBike> ModelBike { get; } = new();
 }
 
 public class ModelBike
@@ -55,6 +47,4 @@ public class ModelBike
     public string Mark { get; set; }
     public int WheelSize { get; set; }
     public int NumberGears { get; set; }
-
-    public List<ModelBike> Model { get; } = new();
 }
