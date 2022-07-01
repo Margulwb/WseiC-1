@@ -53,7 +53,8 @@ public class ModelBike
     [Key]
     public long ID { get; set; }
     public string Mark { get; set; }
-    public double WheelSize { get; set; }
+    public int WheelSize { get; set; }
     public int NumberGears { get; set; }
-    public long BikeID { get; set; }
+
+    public List<ModelBike> Model { get; } = new();
 }

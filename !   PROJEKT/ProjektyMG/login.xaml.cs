@@ -29,9 +29,7 @@ namespace ProjektyMG
 
                 if (userFound)
                 {
-                    LogIn();
-                    //moze tu cos dodaj
-                    
+                    LogIn(UserName, PassWord);
                 }
                 else
                 {
@@ -41,11 +39,20 @@ namespace ProjektyMG
             }
         }
 
-        private void LogIn()
+        private void LogIn(string users, string password )
         {
-            Reservation Dashboard = new();
-            Dashboard.Show();
-            this.Close();
+            if(users == "admin" && password == "admin")
+            {
+                AdminPanel Dashboard = new();
+                Dashboard.Show();
+                this.Close();
+            }
+            else
+            {
+                Reservation Dashboard = new();
+                Dashboard.Show();
+                this.Close();
+            }
         }
     }
 }

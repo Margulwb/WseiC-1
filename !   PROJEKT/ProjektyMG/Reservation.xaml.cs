@@ -38,8 +38,6 @@ namespace ProjektyMG
 
         private void CreateButton_Click(object sender, RoutedEventArgs e) => Create();
 
-        private void ReadButton_Click(object sender, RoutedEventArgs e) => Read();
-
         private void UpdateButton_Click(object sender, RoutedEventArgs e) => Update();  
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e) => Delete();
@@ -53,7 +51,7 @@ namespace ProjektyMG
                 var price = PriceTextBox.Text;
                 var whoPrepared = WhoPreparedTextBox.Text;
 
-                if (name == null || PriceTextBox == null || whoPrepared == null)
+                if (name == null || price == null || whoPrepared == null)
                 {
                     MessageBox.Show("Wprowadz dane");
                 }
