@@ -81,7 +81,7 @@ namespace ProjektyMG
                 var wheleSize = WheleSizeTextBox.Text;
                 var numberGear = NumberGearTextBox.Text;
 
-                if (mark != null && wheleSize != null && numberGear != null)
+                if (mark != null || wheleSize != null || numberGear != null)
                 {
                     ModelBike model = context.ModelBike.Find(selectedModelBike.ID);
                     model.Mark = mark;
