@@ -6138,11 +6138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maciek\\Desktop\\WseiC-1-main\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
+      "projectUniqueName": "D:\\studia\\!   2 semest\\Cw\\C#\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
       "projectName": "ProjektyMG",
-      "projectPath": "C:\\Users\\Maciek\\Desktop\\WseiC-1-main\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
+      "projectPath": "D:\\studia\\!   2 semest\\Cw\\C#\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
       "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maciek\\Desktop\\WseiC-1-main\\!   PROJEKT\\ProjektyMG\\obj\\",
+      "outputPath": "D:\\studia\\!   2 semest\\Cw\\C#\\!   PROJEKT\\ProjektyMG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

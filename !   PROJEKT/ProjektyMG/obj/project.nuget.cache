@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1agJe0CcdNVdRQmhyp5yU98CVsk1Dh/jk1upvkDjOZY5o5GXQrPsD9KDQOUGjLxkV+Qo0bNxRzV72fbGYYnBrw==",
+  "dgSpecHash": "f6v1kUJlyIME/VITJZFMSv+Iuwi7eg8Uke1g77LSDJQiCBJMsMiw4M1qwq4ZvPGbDrZoxVsktqx6x6ypBifqLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maciek\\Desktop\\WseiC-1-main\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
+  "projectFilePath": "D:\\studia\\!   2 semest\\Cw\\C#\\!   PROJEKT\\ProjektyMG\\ProjektyMG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maciek\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Maciek\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

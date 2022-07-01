@@ -7,9 +7,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="CheckReservation.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,13 +15,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="CheckReservation.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="login.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Reservation.xaml">

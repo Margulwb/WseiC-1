@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektyMG"
         mc:Ignorable="d"
-        Title="Reservation" Height="688" Width="800">
+        Title="Reservation" Height="757" Width="800">
     <Grid Margin="0,0,0,-103">
         <Border Background="#2e3137" CornerRadius="100 100 0 0" Margin="20,20,20,103">
             <StackPanel>
+                <Label Content="Lista Rezerwacji Roweru" HorizontalAlignment="Center" Foreground="White" FontSize="20"></Label>
                 <ListView Name="ItemList" Margin="50 30 " Height="211" Foreground="White" Background="#FFBDBDBD">
                     <ListView.ContextMenu >
                         <ContextMenu >
@@ -30,13 +31,14 @@
                     <Label Content="Price" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="3,31,0,0"/>
                     <Label Content="WhoPrepared" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,62,0,0"/>
                     <TextBox x:Name="NameTextBox"   Text="{Binding SelectedItem.Name, ElementName=ItemList, Mode=OneWay}"   HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,0,0,0" Foreground="White" Background="#FFBDBDBD"/>
-                    <TextBox x:Name="PriceTextBox"  Text="{Binding SelectedItem.Price, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
-                    <TextBox x:Name="WhoPreparedTextBox"  Text="{Binding SelectedItem.WhoPrepared, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="PriceTextBox" PreviewTextInput="OnlyNumber_Preview" Text="{Binding SelectedItem.Price, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="WhoPreparedTextBox" PreviewTextInput="OnlyNumber_Preview" Text="{Binding SelectedItem.WhoPrepared, ElementName=ItemList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
 
-                    <ListView Name="WorkersList" Margin="315,0,21,60" Height="211" Foreground="White" Background="#FFBDBDBD">
+                    <Label Content="Lista Osób Przygotowywujących Rowery" Foreground="White" HorizontalAlignment="Right" Margin="0,-29,111,49"></Label>
+                    <ListView Name="ListWorker" Margin="315,0,21,60" Height="211" Foreground="White" Background="#FFBDBDBD">
                         <ListView.ContextMenu >
                             <ContextMenu >
-                                <MenuItem  Header="Clear" Click="MenuItem_Click"/>
+                                <MenuItem  Header="Clear" Click="MenuWorkers_Click"/>
                             </ContextMenu>
                         </ListView.ContextMenu>
                         <ListView.View >
@@ -58,13 +60,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="ReadButton"  HorizontalAlignment="Left" Click="ReadButton_Click" Width="100" Margin="114,0,0,0"  >
-                        <StackPanel Orientation="Horizontal">
-                            <Label Content="Read"/>
-                        </StackPanel>
-                    </Button>
-
-                    <Button x:Name="UpdateButton" HorizontalAlignment="Left" Click="UpdateButton_Click" Width="100" Margin="343,0,0,0"   >
+                    <Button x:Name="UpdateButton" HorizontalAlignment="Left" Click="UpdateButton_Click" Width="100" Margin="116,0,0,0"   >
                         <StackPanel Orientation="Horizontal">
                             <Label Content="Update"/>
                         </StackPanel>
@@ -77,8 +73,6 @@
                     </Button>
 
                 </Grid>
-
-                <Button Click="BackButton_Click" x:Name="BackButton" Margin="100" Content="Powrót"  Background="#adafff" Foreground="White" FontSize="14" Width="214" Height="48" />
             </StackPanel>
         </Border>
     </Grid>

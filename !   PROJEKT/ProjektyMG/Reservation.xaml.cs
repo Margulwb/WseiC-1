@@ -24,18 +24,16 @@ namespace ProjektyMG
         {
             InitializeComponent();
             Read();
-        }
-
-        private void BackButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow Dashboard = new();
-            Dashboard.Show();
-            this.Close();
+            ReadWorkers();
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             ItemList.Items.Clear();
+        }
+        private void MenuWorkers_Click(object sender, RoutedEventArgs e)
+        {
+            ListWorker.Items.Clear();
         }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e) => Create();
@@ -73,6 +71,14 @@ namespace ProjektyMG
             using (DbAplicationContext context = new DbAplicationContext())
             {
                 ItemList.ItemsSource = context.Bike.ToList();
+            }
+
+        }
+        public void ReadWorkers()
+        {
+            using (DbAplicationContext context = new DbAplicationContext())
+            {
+                ListWorker.ItemsSource = context.Workers.ToList();
             }
 
         }
@@ -115,6 +121,11 @@ namespace ProjektyMG
                 }
             }
             Read();
+        }
+
+        private void OnlyNumber_Preview(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = new Regex("[^0-9]+").IsMatch(e.Text);
         }
     }
 }

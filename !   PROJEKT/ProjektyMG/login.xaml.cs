@@ -43,7 +43,7 @@ namespace ProjektyMG
 
         private void LogIn()
         {
-            MainWindow Dashboard = new();
+            Reservation Dashboard = new();
             Dashboard.Show();
             this.Close();
         }
