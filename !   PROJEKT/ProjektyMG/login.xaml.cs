@@ -5,19 +5,20 @@ using System.Windows;
 
 namespace ProjektyMG
 {
-    /// <summary>
-    /// Logika interakcji dla klasy login.xaml
-    /// </summary>
     public partial class login : Window
     {
         public login()
         {
             InitializeComponent();
         }
-
-        private  void ButtonSubmit_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Evet that log in system when corect loggin and password
+        /// </summary>
+        /// <param></param>
+        /// <returns>log in system</returns>
+        private void ButtonSubmit_Click(object sender, RoutedEventArgs e)
         {
-            var UserName = Username.Text; //tu masz dane jaki uzytkownik
+            var UserName = Username.Text;
             var PassWord = Password.Password;
 
             using (DbAplicationContext db = new())
@@ -38,7 +39,11 @@ namespace ProjektyMG
 
             }
         }
-
+        /// <summary>
+        /// a Methot that select user and open specific windows
+        /// </summary>
+        /// <param name="users" name="password">data of login form</param>
+        /// <returns>open user or admin window</returns>
         private void LogIn(string users, string password )
         {
             if(users == "admin" && password == "admin")

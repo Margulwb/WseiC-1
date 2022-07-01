@@ -5,9 +5,6 @@ using System.Windows.Input;
 
 namespace ProjektyMG
 {
-    /// <summary>
-    /// Logika interakcji dla klasy AdminPanel.xaml
-    /// </summary>
     public partial class AdminPanel : Window
     {
         public AdminPanel()
@@ -20,7 +17,11 @@ namespace ProjektyMG
         {
             ModelList.Items.Clear();
         }
-
+        /// <summary>
+        /// a method that forbids inputting anything other than a number 
+        /// </summary>
+        /// <param></param>
+        /// <returns>Can't insert string</returns>
         private void PriceTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             e.Handled = new Regex("[^0-9]+").IsMatch(e.Text);
@@ -39,7 +40,11 @@ namespace ProjektyMG
             }
 
         }
-
+        /// <summary>
+        /// a method that Create new object to table
+        /// </summary>
+        /// <param></param>
+        /// <returns>Create new object</returns>
         public void Create()
         {
 
@@ -61,7 +66,11 @@ namespace ProjektyMG
                 Read();
             }
         }
-
+        /// <summary>
+        /// a method that Update seleced row in table
+        /// </summary>
+        /// <param></param>
+        /// <returns>Update row</returns>
         public void Update()
         {
             using (DbAplicationContext context = new DbAplicationContext())
@@ -84,6 +93,11 @@ namespace ProjektyMG
             }
             Read();
         }
+        /// <summary>
+        /// a method that Delete seleced row in table
+        /// </summary>
+        /// <param></param>
+        /// <returns>Delete row</returns>
         public void Delete()
         {
             using (DbAplicationContext context = new DbAplicationContext())
@@ -100,7 +114,11 @@ namespace ProjektyMG
             }
             Read();
         }
-
+        /// <summary>
+        /// a Evet that close Admin Panel and open Login window
+        /// </summary>
+        /// <param></param>
+        /// <returns>closeing admin panel and open login window</returns>
         private void LogOut_Click(object sender, RoutedEventArgs e)
         {
             login Dashboard = new();
