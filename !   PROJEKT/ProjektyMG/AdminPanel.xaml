@@ -33,8 +33,8 @@
                     <Label Content="WheleSize" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,31,0,0"/>
                     <Label Content="NumberGear" HorizontalAlignment="Left"  Foreground="White" VerticalAlignment="Top" Margin="0,62,0,0"/>
                     <TextBox x:Name="MarkTextBox"   Text="{Binding SelectedItem.Mark, ElementName=ModelList, Mode=OneWay}"   HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,0,0,0" Foreground="White" Background="#FFBDBDBD"/>
-                    <TextBox x:Name="WheleSizeTextBox"  PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.WheleSize, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
-                    <TextBox x:Name="NumberGearTextBox" PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.NumberGear, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="WheleSizeTextBox"  PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.WheelSize, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,31,0,0" Foreground="White" Background="#FFBDBDBD"/>
+                    <TextBox x:Name="NumberGearTextBox" PreviewTextInput="PriceTextBox_PreviewTextInput" Text="{Binding SelectedItem.NumberGears, ElementName=ModelList, Mode=OneWay}"  HorizontalAlignment="Left"  Width="150" Height="26" VerticalAlignment="Top" Margin="100,62,0,0" Foreground="White" Background="#FFBDBDBD"/>
                 </Grid>
 
                 <Grid Margin="20">
